@@ -41,6 +41,8 @@ function M.setup()
   set(0, 'Normal', { fg = p.fg, bg = p.bg })
   set(0, 'CursorLine', { bg = p.color0 })
   set(0, 'LineNr', { fg = p.color8 })
+  set(0, 'Visual', { fg = p.selection_foreground })
+  set(0, 'Visual', { bg = p.selection_background })
   set(0, 'CursorLineNr', { fg = p.color3, bold = true })
 
   -- Syntax
