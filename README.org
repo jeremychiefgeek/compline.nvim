@@ -1,11 +1,69 @@
 * compline.nvim
 
-A port of [[https://github.com/jblais493/compline.git][Joshua Blais' compline theme]].
+A Neovim colorscheme plugin featuring two complementary themes ported from [[https://github.com/jblais493/compline.git][Joshua Blais' compline theme]].
 
-** compline
+** Features
 
-A dark and minimal theme that is easy on the eyes.
+- Two carefully crafted colorschemes: compline (dark) and lauds (light)
+- Minimal, easy-on-the-eyes color palette
+- Built-in support for oil.nvim file browser
+- Syntax highlighting for common programming languages
+- LSP diagnostics integration
 
-** lauds
+** Themes
 
-A parchment like light theme that you'll actually like!
+*** compline
+
+A dark and minimal theme with muted, earthy tones that reduce eye strain during long coding sessions. Perfect for late-night hacking.
+
+*** lauds
+
+A parchment-like light theme with warm, natural colors. A light theme you'll actually enjoy using!
+
+** Installation
+
+*** lazy.nvim
+
+#+begin_src lua
+{
+  "jeremychiefgeek/compline.nvim",
+  lazy = false,
+  priority = 1000,
+  config = function()
+    vim.cmd([[colorscheme compline]])
+    -- or for the light theme:
+    -- vim.cmd([[colorscheme lauds]])
+  end,
+}
+#+end_src
+
+*** Manual
+
+1. Clone this repository into your Neovim plugin directory:
+   #+begin_src bash
+   git clone https://github.com/jeremychiefgeek/compline.nvim ~/.local/share/nvim/site/pack/plugins/start/compline.nvim
+   #+end_src
+
+2. Add to your =init.lua=:
+   #+begin_src lua
+   vim.cmd([[colorscheme compline]])
+   #+end_src
+
+** Usage
+
+To switch between themes, use:
+
+#+begin_src vim
+:colorscheme compline
+:colorscheme lauds
+#+end_src
+
+** Supported Plugins
+
+- oil.nvim - File browser with custom highlights for directories, symlinks, file operations, and permissions
+- Native LSP diagnostics
+- Treesitter (basic syntax highlighting)
+
+** Credits
+
+Original theme by [[https://github.com/jblais493/compline.git][Joshua Blais]].
