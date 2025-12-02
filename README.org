@@ -60,7 +60,8 @@ To switch between themes, use:
 
 ** Supported Plugins
 
-- oil.nvim - File browser with custom highlights for directories, symlinks, file operations, and permissions
+- *oil.nvim* - File browser with custom highlights for directories, symlinks, file operations, and permissions
+- *snacks.nvim* - Dashboard with colorized headers, icons, keybindings, and footer elements
 - Native LSP diagnostics
 - Treesitter (basic syntax highlighting)
 

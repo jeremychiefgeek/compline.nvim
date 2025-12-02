@@ -77,6 +77,18 @@ function M.setup()
   set(0, 'OilTypeSocket', { fg = p.color13 })                -- Sockets
   set(0, 'OilSize', { fg = p.color8 })                       -- File size
   set(0, 'OilMtime', { fg = p.color8 })                      -- Modification time
+
+  -- Snacks.nvim Dashboard
+  set(0, 'SnacksDashboardHeader', { fg = p.color4, bold = true })       -- Dashboard header/logo
+  set(0, 'SnacksDashboardTitle', { fg = p.color3, bold = true })        -- Section titles
+  set(0, 'SnacksDashboardDesc', { fg = p.color8 })                      -- Descriptions
+  set(0, 'SnacksDashboardIcon', { fg = p.color6 })                      -- Icons
+  set(0, 'SnacksDashboardKey', { fg = p.color2, bold = true })          -- Keybindings
+  set(0, 'SnacksDashboardFooter', { fg = p.color5, italic = true })     -- Footer text
+  set(0, 'SnacksDashboardFile', { fg = p.foreground })                  -- File names
+  set(0, 'SnacksDashboardDir', { fg = p.color4 })                       -- Directory names
+  set(0, 'SnacksDashboardShortcut', { fg = p.color1 })                  -- Shortcuts
+  set(0, 'SnacksDashboardSpecial', { fg = p.color3 })                   -- Special elements
 end
 
 return M
