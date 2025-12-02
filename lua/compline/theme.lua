@@ -57,6 +57,26 @@ function M.setup()
   set(0, 'DiagnosticWarn', { fg = p.color3 })
   set(0, 'DiagnosticInfo', { fg = p.color2 })
   set(0, 'DiagnosticHint', { fg = p.color8 })
+
+  -- Oil.nvim
+  set(0, 'OilDir', { fg = p.color4, bold = true })           -- Directories
+  set(0, 'OilDirIcon', { fg = p.color4 })                    -- Directory icons
+  set(0, 'OilLink', { fg = p.color6, underline = true })     -- Symbolic links
+  set(0, 'OilLinkTarget', { fg = p.color8 })                 -- Link targets
+  set(0, 'OilCopy', { fg = p.color3, bold = true })          -- Copied files
+  set(0, 'OilMove', { fg = p.color5, bold = true })          -- Moved files
+  set(0, 'OilChange', { fg = p.color2, bold = true })        -- Changed files
+  set(0, 'OilCreate', { fg = p.color2, bold = true })        -- New files
+  set(0, 'OilDelete', { fg = p.color1, bold = true })        -- Deleted files
+  set(0, 'OilPermissionNone', { fg = p.color8 })             -- No permissions
+  set(0, 'OilPermissionRead', { fg = p.color3 })             -- Read permission
+  set(0, 'OilPermissionWrite', { fg = p.color2 })            -- Write permission
+  set(0, 'OilPermissionExecute', { fg = p.color1 })          -- Execute permission
+  set(0, 'OilTypeFile', { fg = p.foreground })               -- Regular files
+  set(0, 'OilTypeFifo', { fg = p.color5 })                   -- Named pipes
+  set(0, 'OilTypeSocket', { fg = p.color13 })                -- Sockets
+  set(0, 'OilSize', { fg = p.color8 })                       -- File size
+  set(0, 'OilMtime', { fg = p.color8 })                      -- Modification time
 end
 
 return M
