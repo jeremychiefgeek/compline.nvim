@@ -435,18 +435,15 @@ local function set_highlights()
 
 	-- Set all highlights
 	for group, highlight in pairs(highlights) do
-		-- Handle blend as nvim expects
-		if highlight.blend ~= nil then
-			highlight._nvim_blend = highlight.blend
-			highlight.blend = nil
+		-- Create a copy without the blend key for nvim_set_hl
+		local hl_copy = {}
+		for k, v in pairs(highlight) do
+			if k ~= "blend" then
+				hl_copy[k] = v
+			end
 		end
 
-		vim.api.nvim_set_hl(0, group, highlight)
-
-		-- Restore blend for next iteration
-		if highlight._nvim_blend ~= nil then
-			highlight.blend = highlight._nvim_blend
-		end
+		vim.api.nvim_set_hl(0, group, hl_copy)
 	end
 
 	--- Terminal colors
