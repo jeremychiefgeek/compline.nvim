@@ -1,2 +1,2 @@
--- ~/.config/nvim/colors/mycolors.lua
-require('compline.theme').setup()
+package.loaded["compline.palette"] = nil
+require("compline").colorscheme("compline")
