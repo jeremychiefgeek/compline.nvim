@@ -160,6 +160,10 @@ function M.setup()
 	set(0, "SnacksDashboardDir", { fg = p.blue }) -- Directory names
 	set(0, "SnacksDashboardShortcut", { fg = p.red }) -- Shortcuts
 	set(0, "SnacksDashboardSpecial", { fg = p.yellow }) -- Special elements
+
+	-- lazygit.nvim
+	set(0, "LazyGitFloat", { fg = p.fg, bg = p.bg_alt })
+	set(0, "LazyGitBorder", { fg = p.base7, bg = p.bg_alt })
 end
 
 return M
