@@ -11,14 +11,16 @@ local variants = {
 		text = "#e0dcd4",
 		
 		-- Named colors from original palette
-		red = "#CDACAC",
-		orange = "#c4beb0",
-		yellow = "#DBCDB3",
+		red = "#cdacac",
+		orange = "#ccc4b4",
+		yellow = "#d4ccb4",
 		green = "#b8c4b8",
 		blue = "#b4bcc4",
-		cyan = "#b0bcc8",
+		cyan = "#b4c0c8",
 		purple = "#c0b8bc",
 		brown = "#c8beb8",
+		teal = "#b4c4bc",
+		dark_cyan = "#98a4ac",
 		
 		-- Additional colors
 		highlight_low = "#232529",
