@@ -21,7 +21,7 @@ local function set_highlights()
 	end
 
 	local highlights = {}
-	
+
 	-- Base editor UI highlights
 	local default_highlights = {
 		-- Basic UI
@@ -164,6 +164,9 @@ local function set_highlights()
 		healthError = { fg = groups.error },
 		healthSuccess = { fg = groups.info },
 		healthWarning = { fg = groups.warn },
+
+		-- ColorColumn
+		ColorColumn = { bg = pallete.muted },
 
 		--- Treesitter
 		["@variable"] = { fg = palette.text },
