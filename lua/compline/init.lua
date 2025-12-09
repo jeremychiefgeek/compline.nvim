@@ -25,7 +25,7 @@ local function set_highlights()
 	-- Base editor UI highlights
 	local default_highlights = {
 		-- Basic UI
-		ColorColumn = { bg = palette.highlight_low },
+		ColorColumn = { bg = palette.highlight_med },
 		Conceal = { bg = "NONE" },
 		CurSearch = { fg = palette.base, bg = palette.yellow, blend = 20 },
 		Cursor = { fg = palette.base, bg = palette.text },
@@ -164,9 +164,6 @@ local function set_highlights()
 		healthError = { fg = groups.error },
 		healthSuccess = { fg = groups.info },
 		healthWarning = { fg = groups.warn },
-
-		-- ColorColumn
-		ColorColumn = { bg = pallete.muted },
 
 		--- Treesitter
 		["@variable"] = { fg = palette.text },
