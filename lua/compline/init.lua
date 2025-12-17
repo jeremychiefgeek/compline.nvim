@@ -233,12 +233,12 @@ local function set_highlights()
 		["@markup.underline"] = { underline = true },
 
 		["@markup.heading"] = { fg = palette.blue, bold = styles.bold },
-		["@markup.heading.1.markdown"] = { fg = groups.h1, bold = styles.bold },
-		["@markup.heading.2.markdown"] = { fg = groups.h2, bold = styles.bold },
-		["@markup.heading.3.markdown"] = { fg = groups.h3, bold = styles.bold },
-		["@markup.heading.4.markdown"] = { fg = groups.h4, bold = styles.bold },
-		["@markup.heading.5.markdown"] = { fg = groups.h5, bold = styles.bold },
-		["@markup.heading.6.markdown"] = { fg = groups.h6, bold = styles.bold },
+		["@markup.heading.1.markdown"] = { fg = palette.blue, bold = styles.bold },
+		["@markup.heading.2.markdown"] = { fg = palette.cyan, bold = styles.bold },
+		["@markup.heading.3.markdown"] = { fg = palette.yellow, bold = styles.bold },
+		["@markup.heading.4.markdown"] = { fg = palette.orange, bold = styles.bold },
+		["@markup.heading.5.markdown"] = { fg = palette.green, bold = styles.bold },
+		["@markup.heading.6.markdown"] = { fg = palette.purple, bold = styles.bold },
 
 		["@markup.quote"] = { fg = palette.text },
 		["@markup.math"] = { link = "Special" },
