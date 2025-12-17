@@ -4,11 +4,11 @@ local variants = {
 	compline = {
 		_nc = "#16141a",
 		base = "#1a1d21",
-		surface = "#232529",
-		overlay = "#3d424a",
-		muted = "#515761",
-		subtle = "#7d7a75",
-		text = "#e0dcd4",
+		surface = "#2a2d31",
+		overlay = "#434851",
+		muted = "#6a6f78",
+		subtle = "#9a9792",
+		text = "#e8e5dd",
 		
 		-- Named colors from original palette
 		red = "#cdacac",
@@ -23,7 +23,7 @@ local variants = {
 		dark_cyan = "#98a4ac",
 		
 		-- Additional colors
-		highlight_low = "#232529",
+		highlight_low = "#292c30",
 		highlight_med = "#3d424a",
 		highlight_high = "#515761",
 		none = "NONE",
@@ -31,10 +31,10 @@ local variants = {
 	lauds = {
 		_nc = "#e8e7e3",
 		base = "#f0efeb",
-		surface = "#f5f4f2",
-		overlay = "#e5e3e0",
-		muted = "#9a9791",
-		subtle = "#7d7a75",
+		surface = "#e8e7e3",
+		overlay = "#d8d6d1",
+		muted = "#8a857e",
+		subtle = "#6a6661",
 		text = "#1a1d21",
 		
 		-- Named colors from original palette
@@ -48,9 +48,9 @@ local variants = {
 		brown = "#546470",
 		
 		-- Additional colors
-		highlight_low = "#efeeed",
-		highlight_med = "#e5e3e0",
-		highlight_high = "#d8d6d3",
+		highlight_low = "#e6e5e1",
+		highlight_med = "#dcdad6",
+		highlight_high = "#d0cec9",
 		none = "NONE",
 	},
 }
