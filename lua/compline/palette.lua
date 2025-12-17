@@ -2,13 +2,13 @@ local options = require("compline.config").options
 
 local variants = {
 	compline = {
-		_nc = "#16141a",
+		_nc = "#171a1e",
 		base = "#1a1d21",
-		surface = "#2a2d31",
-		overlay = "#434851",
-		muted = "#6a6f78",
-		subtle = "#9a9792",
-		text = "#e8e5dd",
+		surface = "#1f2228",
+		overlay = "#282c34",
+		muted = "#515761",
+		subtle = "#8b919a",
+		text = "#e0dcd4",
 		
 		-- Named colors from original palette
 		red = "#cdacac",
@@ -22,19 +22,19 @@ local variants = {
 		teal = "#b4c4bc",
 		dark_cyan = "#98a4ac",
 		
-		-- Additional colors
-		highlight_low = "#292c30",
-		highlight_med = "#3d424a",
-		highlight_high = "#515761",
+		-- Additional colors - using darker base colors for better contrast
+		highlight_low = "#1f2228",
+		highlight_med = "#282c34",
+		highlight_high = "#3d424a",
 		none = "NONE",
 	},
 	lauds = {
-		_nc = "#e8e7e3",
+		_nc = "#efeeed",
 		base = "#f0efeb",
-		surface = "#e8e7e3",
-		overlay = "#d8d6d1",
-		muted = "#8a857e",
-		subtle = "#6a6661",
+		surface = "#e5e3e0",
+		overlay = "#d8d6d3",
+		muted = "#9a9791",
+		subtle = "#5f5c58",
 		text = "#1a1d21",
 		
 		-- Named colors from original palette
@@ -47,10 +47,10 @@ local variants = {
 		purple = "#4D6B6B",
 		brown = "#546470",
 		
-		-- Additional colors
-		highlight_low = "#e6e5e1",
-		highlight_med = "#dcdad6",
-		highlight_high = "#d0cec9",
+		-- Additional colors - using lighter base colors for better contrast
+		highlight_low = "#e5e3e0",
+		highlight_med = "#d8d6d3",
+		highlight_high = "#b8b5b0",
 		none = "NONE",
 	},
 }
