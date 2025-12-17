@@ -4,7 +4,7 @@ local variants = {
 	compline = {
 		_nc = "#171a1e",
 		base = "#1a1d21",
-		surface = "#1f2228",
+		surface = "#22262b",
 		overlay = "#282c34",
 		muted = "#515761",
 		subtle = "#8b919a",
@@ -22,16 +22,16 @@ local variants = {
 		teal = "#b4c4bc",
 		dark_cyan = "#98a4ac",
 		
-		-- Additional colors - using darker base colors for better contrast
-		highlight_low = "#1f2228",
-		highlight_med = "#282c34",
-		highlight_high = "#3d424a",
+		-- Additional colors - using base1, base2, base4 from official palette
+		highlight_low = "#171a1e",   -- base1
+		highlight_med = "#1f2228",   -- base2
+		highlight_high = "#3d424a",  -- base4
 		none = "NONE",
 	},
 	lauds = {
 		_nc = "#efeeed",
 		base = "#f0efeb",
-		surface = "#e5e3e0",
+		surface = "#e0dcd4",
 		overlay = "#d8d6d3",
 		muted = "#9a9791",
 		subtle = "#5f5c58",
@@ -47,10 +47,10 @@ local variants = {
 		purple = "#4D6B6B",
 		brown = "#546470",
 		
-		-- Additional colors - using lighter base colors for better contrast
-		highlight_low = "#e5e3e0",
-		highlight_med = "#d8d6d3",
-		highlight_high = "#b8b5b0",
+		-- Additional colors - using base0, base1, base3 from official palette
+		highlight_low = "#f5f4f2",   -- base0
+		highlight_med = "#efeeed",   -- base1
+		highlight_high = "#d8d6d3",  -- base3
 		none = "NONE",
 	},
 }
