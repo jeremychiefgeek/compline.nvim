@@ -33,10 +33,6 @@ local function set_highlights()
 		CursorIM = { fg = palette.base, bg = palette.text },
 		CursorLine = { bg = palette.highlight_low },
 		CursorLineNr = { fg = palette.yellow, bold = styles.bold },
-		DiffAdd = { bg = groups.git_add, blend = 15 },
-		DiffChange = { bg = groups.git_change, blend = 15 },
-		DiffDelete = { bg = groups.git_delete, blend = 15 },
-		DiffText = { bg = groups.git_text, blend = 20 },
 		Directory = { fg = palette.blue, bold = styles.bold },
 		EndOfBuffer = { fg = palette.base },
 		ErrorMsg = { fg = groups.error, bold = styles.bold },
@@ -259,10 +255,10 @@ local function set_highlights()
 		["@tag.delimiter"] = { fg = palette.subtle },
 
 		--- Diff
-		DiffAdd = { fg = groups.git_add },
-		DiffChange = { fg = groups.git_change },
-		DiffDelete = { fg = groups.git_delete },
-		DiffText = { fg = groups.git_text },
+		DiffAdd = { bg = groups.git_add, blend = 15 },
+		DiffChange = { bg = groups.git_change, blend = 15 },
+		DiffDelete = { bg = groups.git_delete, blend = 15 },
+		DiffText = { bg = groups.git_text, blend = 20 },
 
 		diffAdded = { link = "DiffAdd" },
 		diffChanged = { link = "DiffChange" },
