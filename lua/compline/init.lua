@@ -338,6 +338,12 @@ local function set_highlights()
 		LazyValue = { fg = palette.text },
 		LazyProgressDone = { fg = palette.green, bold = styles.bold },
 		LazyProgressTodo = { fg = palette.muted },
+		LazyNot = { fg = palette.muted },
+		LazyLocal = { fg = palette.cyan },
+		LazyReasonImport = { fg = palette.purple },
+		LazyBar = { bg = palette.overlay },
+		LazyBarDone = { bg = palette.green, fg = palette.green },
+		LazyBarTodo = { bg = palette.surface, fg = palette.surface },
 
 		--- Telescope
 		TelescopeBorder = make_border(),
